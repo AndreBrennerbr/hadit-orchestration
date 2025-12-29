@@ -3,7 +3,7 @@ import { UsersController } from './users.controller';
 import { UsersService } from './users.service';
 import { UserEntity } from './entity/user.entity';
 import { DataSource } from 'typeorm';
-import { DatabaseModuleModule } from '../database-module/database-module.module';
+import { DatabaseModuleModule } from '../database/database-module.module';
 import { AuthGuard } from 'src/auth/auth.guard';
 
 @Module({
